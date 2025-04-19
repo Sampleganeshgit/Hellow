@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   background-color: grey;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+.log-box-heading{
+    opacity: 1;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgba(17, 24, 39); 
+    margin-left: 2%;
+    line-height: 40px;
+}
+.log-box-container{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 672px;
+    height: 500px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 9px;
+   
+   
+}
+.log-box-container #gmail , #password{
+    display: flex;
+    margin-bottom: 20px;
+    height: 34px;
+    width: 608px;
+    border-radius: 9px;
+    border: 1.9px solid rgb(148, 144, 144);
+    position: relative;
+    top: 25%;
+    left: 2.9%;
+}
+input::placeholder{
+    margin-left: 14px;
+    font-size: 14px;
+    color: rgb(88, 85, 85);
+   align-items: center;
+   position: relative;
+   left: 2%;
+   font-weight: 500;
+}
+#log-box-container #gmail{
+    margin-bottom: 25px;
+}
+#Remeber{
+    display: flex;
+   margin-top: 4%;
+   margin-left: 0.5%;
+}
+#button-container{
+    position: relative;
+    top: 25%;
+    left:2%;
+    margin-left: 1%;
+    justify-content: space-between;
+   
+}
+#cancel-button{
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 113, 113, var(--tw-bg-opacity));
+    border: 0;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 650;
+}
+
+#cancel-button:hover{
+    background-color:rgb(133, 9, 9) ;
+}
+
+#sign-in-buttons{
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    background-color: rgb(12, 228, 109);
+    border: 0;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 650;
+}
+#sign-in-buttons:hover{
+    background-color: rgb(7, 105, 51);
+}
+label{
+  position: absolute;
+  top: 80.5%;
+  left: 4%;
+ font-size: 16px;
+ font-weight: 500;
+}
+#new-user-button{
+    margin-top: 140px;
+    margin-left: 15px;
+    height: 38px;
+    width: 232.6px;
+    border: 1.5px solid rgb(182, 14, 233);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(182, 14, 233) ;
+}
+#new-user-button:hover{
+    background-color: rgb(182, 14, 233);
+    color: aliceblue;
+}
+#forget-password{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+#forget-password a{
+    position: absolute;
+    top: 89%;
+    --tw-text-opacity: 1;
+    color: rgba(251, 191, 39, var(--tw-text-opacity));
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+#forget-password a:hover{
+    color: rgb(70, 70, 68);
+    
+}
+@media screen and (min-width:355px) and (max-width:980px) {
+   .log-box-container
+
+   {
+   
+    position: relative;
+    top: 100px;
+    left: 3%;
+    width: 470px;
+    border-radius: 9px;
+   } 
+   
+   .log-box-container #gmail , #password{
+    position: relative;
+    top: 20%;
+    left: 4.9%;
+    width: 408px;
+   }
+   #button-container{
+    position: relative;
+    top: 20%;
+    left:2.9%;
+    margin-left: 2%;
+    justify-content: space-between;
+    gap: 20px;
+}
+#cancel-button{
+    width: 409px;
+    margin-bottom: 10px;
+}
+#sign-in-buttons{
+    width: 409px;  
+}
+label{
+    position: absolute;
+    top: 87.5%;
+    left: 5%;
+   font-size: 16px;
+   font-weight: 500;
+  }
+  #new-user-button{
+    margin-top: 115px;
+    margin-left: 14px;  
+}
+#forget-password a{
+    position: absolute;
+    top: 83%;
+    --tw-text-opacity: 1;
+    color: rgba(251, 191, 39, var(--tw-text-opacity));
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+}
